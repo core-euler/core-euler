@@ -35,7 +35,7 @@ I pioneered a **LLM-first approach** that fundamentally changed how we build sof
 - 📈 **Scalable team** — junior devs become 10x more productive
 - 💰 **Better margins** — same quality, fraction of the time
 
-*[Read the full methodology on Habr →](https://habr.com/ru/articles/971496/)* (coming soon)
+*[Read the full methodology on Habr →](https://habr.com/ru/articles/971496/)* 
 
 ---
 
