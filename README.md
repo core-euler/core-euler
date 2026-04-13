@@ -1,215 +1,115 @@
-# 👋 Hi, I'm Nikolai — AI-Driven Agency Founder
+# 👋 Hi, I'm Nikolai — Connected Systems Developer & Security Researcher
 
-Building intelligent automation solutions for businesses | Pioneering LLM-first development methodology | Turning complex problems into elegant Telegram bots
-
----
-
-## 🚀 What I Do
-
-I run a **development agency** specializing in AI-powered Telegram bots and automation systems. We've cracked the code on using LLMs to accelerate development 5-10x while maintaining production-quality results.
-
-**Our sweet spot:**
-- 🤖 Telegram bots for e-commerce
-- 📦 Logistics automation & warehouse management
-- 🧠 RAG systems for enterprise knowledge bases
-- 💎 Crypto mini-apps & Web3 integrations
-
-**What makes us different:**
-We build prototypes in **days, not weeks**. Our documentation-driven LLM workflow lets us deliver MVPs so fast clients think it's magic.
+Building IoT products end-to-end and finding where they break before attackers do.
 
 ---
 
-## 💡 AI-Driven Development Methodology
+## 🔌 What I Do
 
-I pioneered a **LLM-first approach** that fundamentally changed how we build software:
+I design, build, and audit **connected systems** — the full stack from microcontroller firmware to cloud backend to mobile app. My edge is understanding the entire system at once: how it's assembled, how it communicates, and where it's vulnerable.
 
-**The system:**
-1. **Documentation as Foundation** — Every feature starts with detailed markdown specs that serve as LLM context
-2. **Test-Driven Development** — LLMs generate comprehensive test suites before implementation
-3. **Role-Based LLM Agents** — Separate "agents" for architecture, API dev, testing, documentation
-4. **Iterative Validation** — Continuous sync between docs and code (docs = source of truth)
+Three things I do well:
 
-**Results:**
-- ⚡ **5-10x faster** time-to-prototype
-- 🎯 **Higher quality** through systematic testing
-- 📈 **Scalable team** — junior devs become 10x more productive
-- 💰 **Better margins** — same quality, fraction of the time
+**Build** — ESP32 firmware, FastAPI backends, Flutter apps, MQTT infrastructure. Full-cycle IoT product development from schematic to production.
 
-*[Read the full methodology on Habr →](https://habr.com/ru/articles/971496/)* 
+**Connect** — Cloud integrations, Home Assistant, Node-RED automation, AI layers where they genuinely add value (not as a buzzword).
+
+**Secure** — Firmware analysis, IoT infrastructure pentesting, AI security audits. I find vulnerabilities before someone else does.
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Commercial Work
 
-### 🛒 Wildberries Seller Bot
-**Problem:** Sellers spending 5+ hours/day on manual inventory management  
-**Solution:** Automated warehouse tracking, analytics, content generation  
-**Impact:** Reduced operational time by 90%, eliminated manual errors
+### 🌿 Lephrone H01 — Smart Aroma Diffuser (US Client)
+IoT product built from scratch: ESP32-S3 firmware, Flutter mobile app, cloud backend with OTA updates. Full technical documentation including threat modeling and security architecture.
 
-**Stack:** Python, aiogram, PostgreSQL, ChatGPT API, Wildberries API
+`ESP32-S3` `ESP-IDF` `FreeRTOS` `Flutter` `FastAPI` `MQTT` `AWS IoT`
 
----
+### 🔐 Backend Pentest Reports (×2 commercial projects)
+Full-cycle security assessments for real production systems. 10+ documents of structured findings — vulnerabilities, severity ratings, remediation plans. Critical API and infrastructure issues identified and closed before exploitation.
+
+`Burp Suite` `nmap` `Wireshark` `OWASP` `REST API security`
 
 ### 🧠 Enterprise RAG System (Logistics)
-**Problem:** Auto repair shop with scattered knowledge across 1C database and docs  
-**Solution:** Telegram bot with vector search over company knowledge base  
-**Impact:** Instant answers for technicians, 3x faster issue resolution
+Knowledge base bot for auto repair shop: vector search over 1C database and unstructured docs. 3x faster issue resolution for technicians.
 
-**Stack:** Python, ChromaDB, LangChain, 1C Integration, GPT-4
+`Python` `ChromaDB` `LangChain` `FastAPI` `Telegram Bot API`
 
 ---
 
-### 🎮 Crypto Gaming Mini-App
-**Problem:** Build blockchain-based backgammon game for TON ecosystem  
-**Solution:** Telegram mini-app with crypto wallet integration  
-**Impact:** $3,000 project delivered in 2 weeks
+## 🛠 Tech Stack
 
-**Stack:** React, TON SDK, Smart Contracts, Telegram Mini Apps
+**Embedded & Hardware**
+ESP32 · ESP-IDF · FreeRTOS · MicroPython · KiCad · Ghidra
 
----
+**Backend & Infrastructure**
+Python · FastAPI · MQTT (Mosquitto) · Docker · PostgreSQL · Redis · Ubuntu Server
 
-## 🛠️ Tech Stack
+**Mobile**
+Flutter · Dart
 
-**Languages & Frameworks:**
-```
-Python • JavaScript/TypeScript • React • FastAPI • aiogram
-```
+**Security**
+Burp Suite · Wireshark · nmap · Ghidra · Firmware analysis · OWASP IoT Top 10 · Prompt injection · AI red-teaming
 
-**AI & LLM:**
-```
-OpenAI GPT • Claude • Gemini CLI • LangChain • ChromaDB • RAG
-```
+**Automation & Monitoring**
+Home Assistant · Node-RED · InfluxDB · Grafana · Tuya IoT
 
-**Databases & Infrastructure:**
-```
-PostgreSQL • Redis • Docker • Nginx • Ubuntu Server
-```
-
-**Integrations:**
-```
-Telegram Bot API • Wildberries API • Ozon API • TON Blockchain • Equring
-```
-
-**Tools:**
-```
-Cursor • Claude Code • Git • Gemini CLI
-```
+**AI & LLM**
+OpenAI · Claude · LangChain · RAG · Vector search · LLM-accelerated development
 
 ---
 
-## 📊 By The Numbers
+## 💡 My Methodology
 
-- 📈 **6.75x revenue growth** in 18 months
-- ⚡ **3-day prototypes** (what normally takes 3 weeks)
-- 💼 **2-3 concurrent projects** with a lean team
-- 🎯 **Average project value:** 3000 $
-- 👥 **Team size:** 2-3 junior developers (trained in LLM-first methodology)
+I use LLMs as acceleration — not as replacement for thinking. For firmware, security research, and system architecture, there's no shortcut: the work requires genuine reasoning. LLMs handle the scaffolding; I handle the decisions that matter.
+
+This is why I moved into IoT security specifically: it's one of the few domains where you can't fake competence. Either the system holds or it doesn't.
+
+---
+
+## 📝 Writing & Research
+
+I publish on connected systems, security, and the technology transition we're living through:
+
+- **Habr** — Technical deep-dives in Russian (photo archive classification system, LLM-driven development methodology, IoT architecture)
+- **CyberCore (Telegram)** — `@CoreEuler` — Philosophical and technical takes on how the world is becoming computational
+
+I believe the gap between people who understand connected systems and people who live inside them is the defining security vulnerability of this decade. I write to close that gap.
+
+---
+
+## 📊 By the Numbers
+
+- 🔌 1 commercial IoT product shipped (US client, full cycle)
+- 🔐 2 commercial pentest engagements with full documentation
+- 📄 10+ security assessment documents written
+- ⚡ LLM-accelerated development: prototypes in days, not weeks
+- 💼 Average project value: $800–3000
 
 ---
 
 ## 🎯 Current Focus
 
-**Building an AI-powered agency ecosystem:**
-- 🔍 **LeadHunter Bot** — Automated lead generation & qualification from Telegram channels
-- 📋 **TeamFlow Bot** — Project management & task automation for dev teams  
-- 📈 **GrowthTracker Bot** — Content generation & business analytics
-
-The goal: Create the first **fully LLM-native agency** where AI handles everything from sales to delivery.
+Building expertise at the intersection of:
+- **IoT Security** — firmware analysis, protocol security, infrastructure hardening
+- **AI Security** — LLM integration audits, prompt injection, red-teaming AI-powered products
+- **Connected Systems Architecture** — designing systems that are both functional and defensible from day one
 
 ---
 
-## 🌱 From Analyst to Agency Founder
+## 🤝 Open to
 
-**Background:**
-- Started as logistics analyst at a transportation company
-- Taught myself Python & bot development
-- Transitioned to freelancing (initially took a 50% income cut)
-- Built methodology around LLM-assisted development
-- Scaled from solo freelancer to small agency in 2 years
-
-**Philosophy:**
-I believe the future belongs to developers who embrace AI, not resist it. The real skill isn't writing every line of code — it's architecting systems, understanding business problems, and orchestrating LLMs to execute your vision at superhuman speed.
+- IoT product development (firmware → backend → app)
+- Security audits of connected systems and IoT infrastructure
+- AI integration security reviews
+- Technical writing and research collaboration
 
 ---
 
-## 💭 Thoughts on AI Development
+## 🌱 Background
 
-**"Real developers don't use AI"** — I hear this all the time from traditionalists.
+Self-taught developer. Former logistics analyst. Built my own LLM-accelerated development methodology before "vibe coding" became a term — documented it on GitHub and Habr. Transitioned from AI/automation freelancing into connected systems and security because that's where the work still requires thinking.
 
-Here's my take: **Real developers solve problems efficiently.** 
+Based in Russia. Working with global clients.
 
-If I can deliver a production-quality bot in 3 days using LLMs vs. 3 weeks writing everything by hand, I'm not "cheating" — I'm being strategic. The client gets their solution faster, cheaper, and I free up time to take on more projects or think strategically.
-
-The developers who resist AI are the same ones who resisted IDEs, Stack Overflow, and autocomplete. Tools evolve. Adapt or get left behind.
-
----
-
-## 📫 Let's Connect
-
-**Looking for:**
-- Collaboration on AI-driven development tools
-- Partnership opportunities for B2B automation
-- Fellow founders building LLM-first products
-
----
-
-## 🎓 Knowledge Sharing
-
-I'm passionate about sharing what I've learned:
-
-**Topics I can talk about:**
-- Building production Telegram bots at scale
-- LLM-first development methodology
-- Transitioning from employment to agency ownership
-- Pricing & packaging dev services
-- Managing junior developers with LLM assistance
-- Automating e-commerce operations
-
-**Open to:**
-- Podcast appearances
-- Conference talks
-- Mentoring aspiring agency founders
-- Technical consultations
-
----
-
-## 📈 What's Next
-
-**2026 Goals:**
-- 🎯 Scale agency revenue to 6000 $ / month
-- 🚀 Launch SaaS product for automated lead generation
-- 📝 Publish comprehensive guide on LLM-driven development
-- 👥 Build team of 3-4 developers using our methodology
-- 🌍 Expand beyond Russian market
-
----
-
-## 🤝 Open Source
-
-While most of my work is client-based, I'm planning to open-source:
-- 📚 **LLM Development Templates** — Starter kits for documentation-driven development
-- 🤖 **Telegram Bot Boilerplate** — Production-ready bot architecture with LLM integration
-- 🔧 **AI Tools Collection** — Curated list of prompts & workflows for developers
-
-*Star this profile to stay updated when repos go public!*
-
----
-
-## ⚡ Fun Facts
-
-- 🎮 Built my first game in D&D-style campaigns before coding
-- 🎵 Former music producer (DAW skills transfer to code architecture surprisingly well)
-- 🏆 Completed 12 Kaggle ML competitions
-- 👨‍👩‍👧 Father & husband balancing agency life with family time
-- 📊 Track every project hour religiously (data nerd at heart)
-- 🇷🇺 Based in Russia, working with global tech stack
-
----
-
-## 💬 Recent Thoughts
-
-> "The best code is the code you don't have to write. LLMs aren't replacing developers — they're replacing the boring parts of development."
-
-> "Documentation-first isn't just good practice — it's the foundation for AI-assisted development. If a human can't understand your spec, neither can an LLM."
-
-> "Agencies that don't adopt AI by 2026 will be competing on price alone. Those who master LLMs will compete on speed and quality."
+**Philosophy:** The world is accelerating faster than people can adapt. The gap between those who understand connected systems and those who don't is growing — and that gap is dangerous. I build things that work, find where they break, and write about what I learn.
