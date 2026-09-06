@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Nikolai
 ### Connected Systems Developer & Security Researcher
-[KAGGLE](https://www.kaggle.com/okoloboga)
+[![Kaggle](https://img.shields.io/badge/Kaggle-%23035a7d.svg?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/okoloboga)
 Building IoT products end-to-end and finding where they break before attackers do.
 
 ## 🔌 What I Do
